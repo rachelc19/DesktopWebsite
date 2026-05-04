@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+section.homepage-container {
+    max-width: 1920px;
+    min-height: 800px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: white;
+
+    header {
+        border: 1px solid black;
+        background-color: #650d19;
+        color: #E8D8C8;
+        font-size: 32px;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        nav {
+            border: 1px solid white;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            min-width: 400px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    section.intro-content {
+        display: flex;
+        min-height: 500px;
+        border: 1px solid black;
+
+        .left-side-container {
+            display: flex;
+            flex-direction: column;
+            width: 33%;
+            padding: 30px;
+            border: 1px solid black;
+        }
+    }
+
+section.explore-styles {
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+
+    .earring-image-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid black;
+
+        .earring-image {
+            min-height: 300px;
+            border: 1px solid blue;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+section.about-me-homepage {
+    display: flex;
+    min-height: 300px;
+    border: 1px solid black;
+
+    .left-side-container {
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        padding: 30px;
+        border: 1px solid black;
+    }
+
+    .right-side-container {
+        display: flex;
+        flex-direction: column;
+        width: 66%;
+        padding: 30px;
+        border: 1px solid black;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 50px;
+    padding: 15px;
+    background-color: #435A00;
+    color: #E8D8C8;
+}
+
+}
