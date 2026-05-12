@@ -1,7 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: League Spartan, sans-serif;
 }
 
+
+/*This is the homepage content. Shop all page content is on row 112*/
 section.homepage-container {
     max-width: 1920px;
     min-height: 800px;
@@ -11,9 +13,10 @@ section.homepage-container {
 
     header {
         border: 1px solid black;
+        font-size: 32px;
+        border-bottom: #A60016 10px solid;
         background-color: #650d19;
         color: #E8D8C8;
-        font-size: 32px;
         padding: 15px;
         display: flex;
         flex-direction: row;
@@ -25,7 +28,7 @@ section.homepage-container {
             display: flex;
             align-items: center;
             font-size: 16px;
-            min-width: 400px;
+            min-width: 200px;
 
             a {
                 text-decoration: none;
@@ -39,10 +42,14 @@ section.homepage-container {
         display: flex;
         min-height: 500px;
         border: 1px solid black;
+        background-image: url('project3_images/intro_pic_expanded.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
 
         .left-side-container {
             display: flex;
             flex-direction: column;
+            justify-content: center;
             width: 33%;
             padding: 30px;
             border: 1px solid black;
@@ -56,15 +63,17 @@ section.explore-styles {
     border: 1px solid black;
     padding: 10px;
 
-    .earring-image-container {
+    .earring-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         border: 1px solid black;
 
-        .earring-image {
-            min-height: 300px;
+        .earring-card {
             border: 1px solid blue;
+            margin: 10px;
+            /*Note: all jewelry images were different sizes, but have a 3:4 aspect ratio.*/
+            width: 25%;
 
             img {
                 width: 100%;
@@ -88,10 +97,12 @@ section.about-me-homepage {
 
     .right-side-container {
         display: flex;
-        flex-direction: column;
-        width: 66%;
-        padding: 30px;
+        width: 67%;
         border: 1px solid black;
+        .images {
+            width: 100%;
+            object-fit: cover;
+        }
     }
 }
 
@@ -99,10 +110,240 @@ footer {
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
-    height: 50px;
+    max-height: 50px;
     padding: 15px;
     background-color: #435A00;
     color: #E8D8C8;
 }
+
+}
+
+/*This is the shop all content. Order page starts on row 211*/
+
+section.shop-all-container {
+    max-width: 1920px;
+    min-height: 800px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: white;
+
+    header {
+        border: 1px solid black;
+        border-bottom: #A60016 10px solid;
+        background-color: #650d19;
+        color: #E8D8C8;
+        font-size: 32px;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        nav {
+            border: 1px solid white;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            min-width: 200px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    section.subhead {
+        display: flex;
+        justify-content: center;
+    }
+
+    section.main-content {
+        display: flex;
+        min-height: 500px;
+        border: 1px solid black;
+        flex-direction: column;
+        align-items: center;
+
+        .earring-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 1px solid black;
+
+            .earring-card {
+                border: 1px solid blue;
+                margin: 10px;
+                /*Note: all jewelry images were different sizes, but have a 3:4 aspect ratio.*/
+                width: 33%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .earring-container-bottom {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 1px solid black;
+
+            .earring-card {
+                border: 1px solid blue;
+                margin: 10px;
+                /*Note: all jewelry images were different sizes, but have a 3:4 aspect ratio.*/
+                width: 33%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+        max-height: 50px;
+        padding: 15px;
+        background-color: #435A00;
+        color: #E8D8C8;
+    }
+}
+
+/*This is the order page content. Next page starts on row*/
+
+section.order-page-container {
+    max-width: 1920px;
+    min-height: 800px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: white;
+
+    header {
+        border: 1px solid black;
+        border-bottom: #A60016 10px solid;
+        background-color: #650d19;
+        color: #E8D8C8;
+        font-size: 32px;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        nav {
+            border: 1px solid white;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            min-width: 200px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    section.subhead {
+        display: flex;
+        padding: 10px;
+    }
+
+    section.order-content {
+        display: flex;
+        flex-direction: row;
+        min-height: 300px;
+        border: 1px solid black;
+        padding: 10px;
+
+        .left-side-container {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid green;
+            width: 50%;
+
+            .product-details {
+                border: 1px solid red;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                img {
+                    width: 25%;
+                }
+
+                .text-container {
+                    display: flex;
+                    padding: 10px;
+                    width: 75%;
+                    justify-content: space-between;
+                    .left {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .right {
+                        display: flex;
+                    }
+                }
+            }
+
+
+        }
+
+        .right-side-container {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            border: 1px solid red;
+            width: 50%;
+            padding: 20px;
+
+            .details {
+                display: flex;
+                border: 1px solid blue;
+                justify-content: space-between;
+                .left {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .right {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+
+    section.contact-subhead {
+        display: flex;
+        padding: 10px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        min-height: 300px;
+        border: 1px solid black;
+        padding: 10px;
+
+    }
+
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+        max-height: 50px;
+        padding: 15px;
+        background-color: #435A00;
+        color: #E8D8C8;
+    }
+
 
 }
