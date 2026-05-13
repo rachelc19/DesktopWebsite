@@ -27,11 +27,11 @@ h4 {
 section.homepage-container {
     max-width: 1920px;
     min-height: 800px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin: 0 auto;
 
     header {
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         border-bottom: #A60016 10px solid;
         background-color: #650d19;
         color: #E8D8C8;
@@ -49,16 +49,16 @@ section.homepage-container {
         }
 
         nav {
-            border: 1px solid white;
-            justify-content: space-between;
+            /*border: 1px solid white;*/
             display: flex;
+            justify-content: space-between;
             align-items: center;
-            font-size: 16px;
+            font-size: 18px;
             min-width: 200px;
 
             a {
                 text-decoration: none;
-                color: white;
+                color: #e8d8c8;
                 text-transform: uppercase;
             }
         }
@@ -67,7 +67,7 @@ section.homepage-container {
     section.intro-content {
         display: flex;
         min-height: 500px;
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         background-image: url('project3_images/intro_pic_expanded.jpg');
         background-repeat: no-repeat;
         background-position: center;
@@ -78,7 +78,7 @@ section.homepage-container {
             justify-content: center;
             width: 40%;
             padding: 30px;
-            border: 1px solid black;
+            /*border: 1px solid black;*/
 
             a {
                 text-decoration: none;
@@ -91,7 +91,7 @@ section.explore-styles {
     display: flex;
     flex-direction: column;
     min-height: 300px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     padding: 10px;
     align-items: center;
 
@@ -108,10 +108,10 @@ section.explore-styles {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        border: 1px solid black;
+        /*border: 1px solid black;*/
 
         .earring-card {
-            border: 1px solid blue;
+            /*border: 1px solid blue;*/
             border-radius: 20px;
             margin: 10px;
             /*Note: all jewelry images were different sizes, but have a 3:4 aspect ratio.*/
@@ -135,13 +135,13 @@ section.explore-styles {
 section.about-me-homepage {
     display: flex;
     min-height: 300px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 
     .left-side-container {
         display: flex;
         flex-direction: column;
         width: 20%;
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         padding: 20px;
 
     }
@@ -149,7 +149,7 @@ section.about-me-homepage {
     .right-side-container {
         display: flex;
         width: 80%;
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         justify-content: space-between;
 
         .image-container {
@@ -172,7 +172,7 @@ section.about-me-homepage {
 footer {
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     max-height: 50px;
     padding: 15px;
     background-color: #435A00;
@@ -186,11 +186,11 @@ footer {
 section.shop-all-container {
     max-width: 1920px;
     min-height: 800px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin: 0 auto;
 
     header {
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         border-bottom: #A60016 10px solid;
         background-color: #650d19;
         color: #E8D8C8;
@@ -209,16 +209,16 @@ section.shop-all-container {
         }
 
         nav {
-            border: 1px solid white;
-            justify-content: space-between;
+            /*border: 1px solid white;*/
             display: flex;
+            justify-content: space-between;
             align-items: center;
-            font-size: 16px;
+            font-size: 18px;
             min-width: 200px;
 
             a {
                 text-decoration: none;
-                color: white;
+                color: #e8d8c8;
                 text-transform: uppercase;
             }
         }
@@ -233,7 +233,7 @@ section.shop-all-container {
     section.main-content {
         display: flex;
         min-height: 500px;
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         flex-direction: column;
         align-items: center;
 
@@ -241,10 +241,10 @@ section.shop-all-container {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            border: 1px solid black;
+            /*border: 1px solid black;*/
 
             .earring-card {
-                border: 1px solid blue;
+                /*border: 1px solid blue;*/
                 margin: 10px;
                 /*Note: all jewelry images were different sizes, but have a 3:4 aspect ratio.*/
                 width: 33%;
@@ -271,10 +271,10 @@ section.shop-all-container {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            border: 1px solid black;
+            /*border: 1px solid black;*/
 
             .earring-card {
-                border: 1px solid blue;
+                /*border: 1px solid blue;*/
                 margin: 10px;
                 /*Note: all jewelry images were different sizes, but have a 3:4 aspect ratio.*/
                 width: 33%;
@@ -297,7 +297,7 @@ section.shop-all-container {
     footer {
         display: flex;
         justify-content: space-between;
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         max-height: 50px;
         padding: 15px;
         background-color: #435A00;
@@ -310,11 +310,11 @@ section.shop-all-container {
 section.order-page-container {
     max-width: 1920px;
     min-height: 800px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin: 0 auto;
 
     header {
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         border-bottom: #A60016 10px solid;
         background-color: #650d19;
         color: #E8D8C8;
@@ -333,16 +333,16 @@ section.order-page-container {
         }
 
         nav {
-            border: 1px solid white;
-            justify-content: space-between;
+            /*border: 1px solid white;*/
             display: flex;
+            justify-content: space-between;
             align-items: center;
-            font-size: 16px;
+            font-size: 18px;
             min-width: 200px;
 
             a {
                 text-decoration: none;
-                color: white;
+                color: #e8d8c8;
                 text-transform: uppercase;
             }
         }
@@ -357,20 +357,20 @@ section.order-page-container {
         display: flex;
         flex-direction: row;
         min-height: 300px;
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         padding: 10px;
         justify-content: space-between;
 
         .left-side-container {
             display: flex;
             flex-direction: column;
-            border: 1px solid green;
+            /*border: 1px solid green;*/
             width: 45%;
             min-height: 460px;
             justify-content: space-between;
 
             .product-details {
-                border: 1px solid red;
+                /*border: 1px solid red;*/
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -403,7 +403,7 @@ section.order-page-container {
         .right-side-container {
             display: flex;
             flex-direction: column;
-            border: 1px solid red;
+            /*border: 1px solid red;*/
             width: 51%;
             padding: 20px;
             background-color: #ddc1a7;
@@ -411,7 +411,7 @@ section.order-page-container {
 
             .details {
                 display: flex;
-                border: 1px solid blue;
+                /*border: 1px solid blue;*/
                 justify-content: space-between;
                 .left {
                     display: flex;
@@ -434,7 +434,7 @@ section.order-page-container {
         display: flex;
         flex-direction: column;
         min-height: 300px;
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         padding: 10px;
 
         input {
@@ -445,6 +445,7 @@ section.order-page-container {
             font-family: "League Spartan", sans-serif;
             color: #435A00;
             font-size: 16px;
+            border: none;
         }
 
         input[type="submit"] {
@@ -461,7 +462,7 @@ section.order-page-container {
     footer {
         display: flex;
         justify-content: space-between;
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         max-height: 50px;
         padding: 15px;
         background-color: #435A00;
@@ -473,11 +474,11 @@ section.order-page-container {
 section.product-page-container {
     max-width: 1920px;
     min-height: 800px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin: 0 auto;
 
     header {
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         font-size: 32px;
         border-bottom: #A60016 10px solid;
         background-color: #650d19;
@@ -498,16 +499,16 @@ section.product-page-container {
 
 
         nav {
-            border: 1px solid white;
-            justify-content: space-between;
+            /*border: 1px solid white;*/
             display: flex;
+            justify-content: space-between;
             align-items: center;
-            font-size: 16px;
+            font-size: 18px;
             min-width: 200px;
 
             a {
                 text-decoration: none;
-                color: white;
+                color: #e8d8c8;
                 text-transform: uppercase;
             }
         }
@@ -515,9 +516,9 @@ section.product-page-container {
 
     section.main-content {
         display: flex;
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         .left {
-            border: 1px solid blue;
+            /*border: 1px solid blue;*/
             display: flex;
             flex-direction: column;
             width: 40%;
@@ -531,7 +532,7 @@ section.product-page-container {
 
         }
         .right {
-            border: 1px solid red;
+            /*border: 1px solid red;*/
             display: flex;
             flex-direction: column;
             width: 60%;
@@ -550,7 +551,7 @@ section.product-page-container {
             .bottom-content {
                 display: flex;
                 flex-direction: column;
-                border: 1px solid blue;
+                /*border: 1px solid blue;*/
                 justify-content: space-between;
                 min-height: 350px;
 
@@ -568,7 +569,7 @@ section.product-page-container {
                 }
 
                 .additional-images {
-                    border: 1px solid green;
+                    /*border: 1px solid green;*/
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;
@@ -588,7 +589,7 @@ section.product-page-container {
     footer {
         display: flex;
         justify-content: space-between;
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         max-height: 50px;
         padding: 15px;
         background-color: #435A00;
