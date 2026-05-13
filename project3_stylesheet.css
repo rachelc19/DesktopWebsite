@@ -39,8 +39,13 @@ section.homepage-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        img {
-            max-height: 25px;
+        a {
+            img {
+                display: flex;
+                align-items: center;
+                min-height: 25px;
+                min-width: 100px;
+            }
         }
 
         nav {
@@ -194,8 +199,13 @@ section.shop-all-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        img {
-            max-height: 25px;
+        a {
+            img {
+                display: flex;
+                align-items: center;
+                min-height: 25px;
+                min-width: 100px;
+            }
         }
 
         nav {
@@ -313,8 +323,13 @@ section.order-page-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        img {
-            max-height: 25px;
+        a {
+            img {
+                display: flex;
+                align-items: center;
+                min-height: 25px;
+                min-width: 100px;
+            }
         }
 
         nav {
@@ -471,9 +486,16 @@ section.product-page-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        img {
-            max-height: 25px;
+
+        a {
+            img {
+                display: flex;
+                align-items: center;
+                min-height: 25px;
+                min-width: 100px;
+            }
         }
+
 
         nav {
             border: 1px solid white;
