@@ -1,9 +1,12 @@
-/*This stylesheet is for homepage, shop all page, order page, and one individual product page.*/
+/*This stylesheet is for all 4 pages: homepage, shop all page, order page, and one individual product page.*/
+/*Homepage content starts on row 29*/
+/*Shop All content starts on row 189*/
+/*Order Page content starts on row 315*/
+/*Individual Product Page content starts on row 487*/
 
 body {
     font-family: League Spartan, sans-serif;
     color: #435A00;
-    background-color: #e8d8c8;
 }
 
 h1 {
@@ -23,10 +26,11 @@ h4 {
     margin-top: 0;
 }
 
-/*This is the homepage content. Shop all page content is on row 112*/
+/*This is the homepage content. Shop All page content starts on row 189*/
 section.homepage-container {
     max-width: 1920px;
     min-height: 800px;
+    background-color: #e8d8c8;
     /*border: 1px solid black;*/
     margin: 0 auto;
 
@@ -173,7 +177,8 @@ footer {
     display: flex;
     justify-content: space-between;
     /*border: 1px solid black;*/
-    max-height: 50px;
+    max-height: 20px;
+    align-items: center;
     padding: 15px;
     background-color: #435A00;
     color: #E8D8C8;
@@ -181,11 +186,12 @@ footer {
 
 }
 
-/*This is the shop all content. Order page starts on row 296*/
+/*This is the Shop All page content. Order page content starts on row 315*/
 
 section.shop-all-container {
     max-width: 1920px;
     min-height: 800px;
+    background-color: #e8d8c8;
     /*border: 1px solid black;*/
     margin: 0 auto;
 
@@ -298,18 +304,20 @@ section.shop-all-container {
         display: flex;
         justify-content: space-between;
         /*border: 1px solid black;*/
-        max-height: 50px;
+        max-height: 20px;
+        align-items: center;
         padding: 15px;
         background-color: #435A00;
         color: #E8D8C8;
     }
 }
 
-/*This is the order page content. Next page starts on row 406*/
+/*This is the Order page content. Individual product page content starts on row 487*/
 
 section.order-page-container {
     max-width: 1920px;
     min-height: 800px;
+    background-color: #e8d8c8;
     /*border: 1px solid black;*/
     margin: 0 auto;
 
@@ -368,6 +376,11 @@ section.order-page-container {
             width: 45%;
             min-height: 460px;
             justify-content: space-between;
+
+            a {
+                text-decoration: none;
+                color: #435A00;
+            }
 
             .product-details {
                 /*border: 1px solid red;*/
@@ -463,7 +476,8 @@ section.order-page-container {
         display: flex;
         justify-content: space-between;
         /*border: 1px solid black;*/
-        max-height: 50px;
+        max-height: 20px;
+        align-items: center;
         padding: 15px;
         background-color: #435A00;
         color: #E8D8C8;
@@ -474,6 +488,7 @@ section.order-page-container {
 section.product-page-container {
     max-width: 1920px;
     min-height: 800px;
+    background-color: #e8d8c8;
     /*border: 1px solid black;*/
     margin: 0 auto;
 
@@ -590,7 +605,8 @@ section.product-page-container {
         display: flex;
         justify-content: space-between;
         /*border: 1px solid black;*/
-        max-height: 50px;
+        max-height: 20px;
+        align-items: center;
         padding: 15px;
         background-color: #435A00;
         color: #E8D8C8;
