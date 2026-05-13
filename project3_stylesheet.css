@@ -1,7 +1,27 @@
+/*This stylesheet is for homepage, shop all page, order page, and one individual product page.*/
+
 body {
     font-family: League Spartan, sans-serif;
+    color: #435A00;
+    background-color: #e8d8c8;
 }
 
+h1 {
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 0;
+}
 
 /*This is the homepage content. Shop all page content is on row 112*/
 section.homepage-container {
@@ -9,11 +29,9 @@ section.homepage-container {
     min-height: 800px;
     border: 1px solid black;
     margin: 0 auto;
-    background-color: white;
 
     header {
         border: 1px solid black;
-        font-size: 32px;
         border-bottom: #A60016 10px solid;
         background-color: #650d19;
         color: #E8D8C8;
@@ -21,6 +39,9 @@ section.homepage-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        img {
+            max-height: 25px;
+        }
 
         nav {
             border: 1px solid white;
@@ -50,9 +71,14 @@ section.homepage-container {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            width: 33%;
+            width: 40%;
             padding: 30px;
             border: 1px solid black;
+
+            a {
+                text-decoration: none;
+                color: #435A00;
+            }
         }
     }
 
@@ -62,8 +88,18 @@ section.explore-styles {
     min-height: 300px;
     border: 1px solid black;
     padding: 10px;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color: #435A00;
+    }
 
     .earring-container {
+        a {
+            text-decoration: none;
+            color: #e8d8c8;
+        }
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -71,12 +107,21 @@ section.explore-styles {
 
         .earring-card {
             border: 1px solid blue;
+            border-radius: 20px;
             margin: 10px;
             /*Note: all jewelry images were different sizes, but have a 3:4 aspect ratio.*/
             width: 25%;
+            background-color: #650d19;
+            color: #e8d8c8;
+            max-height: 600px;
 
             img {
                 width: 100%;
+                border-radius: 20px 20px 0 0;
+            }
+
+            .text {
+                padding: 15px;
             }
         }
     }
@@ -90,19 +135,32 @@ section.about-me-homepage {
     .left-side-container {
         display: flex;
         flex-direction: column;
-        width: 33%;
-        padding: 30px;
+        width: 20%;
         border: 1px solid black;
+        padding: 20px;
+
     }
 
     .right-side-container {
         display: flex;
-        width: 67%;
+        width: 80%;
         border: 1px solid black;
-        .images {
-            width: 100%;
+        justify-content: space-between;
+
+        .image-container {
+            display: flex;
+            width: 33%;
+            object-fit: cover;
+
+        }
+
+        .video-content {
+            width: 33%;
+            max-height: 500px;
             object-fit: cover;
         }
+
+
     }
 }
 
@@ -118,14 +176,13 @@ footer {
 
 }
 
-/*This is the shop all content. Order page starts on row 211*/
+/*This is the shop all content. Order page starts on row 296*/
 
 section.shop-all-container {
     max-width: 1920px;
     min-height: 800px;
     border: 1px solid black;
     margin: 0 auto;
-    background-color: white;
 
     header {
         border: 1px solid black;
@@ -137,6 +194,9 @@ section.shop-all-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        img {
+            max-height: 25px;
+        }
 
         nav {
             border: 1px solid white;
@@ -156,7 +216,8 @@ section.shop-all-container {
 
     section.subhead {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     section.main-content {
@@ -177,9 +238,21 @@ section.shop-all-container {
                 margin: 10px;
                 /*Note: all jewelry images were different sizes, but have a 3:4 aspect ratio.*/
                 width: 33%;
+                background-color: #650d19;
+                border-radius: 20px;
+                color: #e8d8c8;
+
+                a {
+                    text-decoration: none;
+                    color: #e8d8c8;
+                }
 
                 img {
                     width: 100%;
+                    border-radius: 20px 20px 0 0;
+                }
+                .text {
+                    padding: 15px;
                 }
             }
         }
@@ -195,9 +268,17 @@ section.shop-all-container {
                 margin: 10px;
                 /*Note: all jewelry images were different sizes, but have a 3:4 aspect ratio.*/
                 width: 33%;
+                background-color: #650d19;
+                border-radius: 20px;
+                color: #e8d8c8;
 
                 img {
                     width: 100%;
+                    border-radius: 20px 20px 0 0;
+                }
+
+                .text {
+                    padding: 15px;
                 }
             }
         }
@@ -214,14 +295,13 @@ section.shop-all-container {
     }
 }
 
-/*This is the order page content. Next page starts on row*/
+/*This is the order page content. Next page starts on row 406*/
 
 section.order-page-container {
     max-width: 1920px;
     min-height: 800px;
     border: 1px solid black;
     margin: 0 auto;
-    background-color: white;
 
     header {
         border: 1px solid black;
@@ -233,6 +313,9 @@ section.order-page-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        img {
+            max-height: 25px;
+        }
 
         nav {
             border: 1px solid white;
@@ -261,26 +344,32 @@ section.order-page-container {
         min-height: 300px;
         border: 1px solid black;
         padding: 10px;
+        justify-content: space-between;
 
         .left-side-container {
             display: flex;
             flex-direction: column;
             border: 1px solid green;
-            width: 50%;
+            width: 45%;
+            min-height: 460px;
+            justify-content: space-between;
 
             .product-details {
                 border: 1px solid red;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                background-color: #ddc1a7;
+                border-radius: 20px;
 
                 img {
                     width: 25%;
+                    border-radius: 20px 0 0 20px;
                 }
 
                 .text-container {
                     display: flex;
-                    padding: 10px;
+                    padding: 20px;
                     width: 75%;
                     justify-content: space-between;
                     .left {
@@ -298,11 +387,12 @@ section.order-page-container {
 
         .right-side-container {
             display: flex;
-            justify-content: space-between;
             flex-direction: column;
             border: 1px solid red;
-            width: 50%;
+            width: 51%;
             padding: 20px;
+            background-color: #ddc1a7;
+            border-radius: 20px;
 
             .details {
                 display: flex;
@@ -332,6 +422,24 @@ section.order-page-container {
         border: 1px solid black;
         padding: 10px;
 
+        input {
+            height: 25px;
+            border-radius: 10px;
+            background-color: #ddc1a7;
+            padding-left: 10px;
+            font-family: "League Spartan", sans-serif;
+            color: #435A00;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            height: 50px;
+            border-radius: 10px;
+            background-color: #A60016;
+            color: #e8d8c8;
+            font-size: 24px;
+        }
+
     }
 
 
@@ -344,6 +452,127 @@ section.order-page-container {
         background-color: #435A00;
         color: #E8D8C8;
     }
+}
+
+/*This is an individual product page for the red origami pinwheel earrings.*/
+section.product-page-container {
+    max-width: 1920px;
+    min-height: 800px;
+    border: 1px solid black;
+    margin: 0 auto;
+
+    header {
+        border: 1px solid black;
+        font-size: 32px;
+        border-bottom: #A60016 10px solid;
+        background-color: #650d19;
+        color: #E8D8C8;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        img {
+            max-height: 25px;
+        }
+
+        nav {
+            border: 1px solid white;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            min-width: 200px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    section.main-content {
+        display: flex;
+        border: 1px solid black;
+        .left {
+            border: 1px solid blue;
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            padding: 20px;
+
+            img {
+                width: 100%;
+                object-fit: cover;
+                border-radius: 20px;
+            }
+
+        }
+        .right {
+            border: 1px solid red;
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            padding: 0 20px 20px 0;
+            justify-content: space-between;
+
+            .top-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h3 {
+                    margin-top: 5px;
+                }
+            }
+
+            .bottom-content {
+                display: flex;
+                flex-direction: column;
+                border: 1px solid blue;
+                justify-content: space-between;
+                min-height: 350px;
+
+                .button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 50px;
+                    width: 100%;
+                    color: #e8d8c8;
+                    background-color: #A60016;
+                    border-radius: 10px;
+                    text-align: center;
+                    text-decoration: none;
+                }
+
+                .additional-images {
+                    border: 1px solid green;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    img {
+                        width: 33%;
+                        object-fit: cover;
+                        border-radius: 20px;
+                    }
+                }
+            }
+
+        }
+    }
+
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+        max-height: 50px;
+        padding: 15px;
+        background-color: #435A00;
+        color: #E8D8C8;
+    }
+
 
 
 }
